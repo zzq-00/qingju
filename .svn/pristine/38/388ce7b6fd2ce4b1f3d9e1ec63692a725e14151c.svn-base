@@ -1,0 +1,26 @@
+@font-face{
+  font-family: 'SourceHanSans-Normal';
+  src: url('../fontFamily/SourceHanSansCN-Normal.eot');
+  src: url('../fontFamily/SourceHanSansCN-Normal.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+/* @font-face{
+  font-family: 'SHS-Medium';
+  src: url('../fontFamily/SourceHanSansCN-Medium.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face{
+  font-family: 'SHS-Regular';
+  src: url('../fontFamily/SourceHanSansCN-Regular.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face{
+  font-family: 'SHS-Bold';
+  src: url('../fontFamily/SourceHanSansCN-Bold.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+} */
+

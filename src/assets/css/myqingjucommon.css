@@ -1,0 +1,261 @@
+/* 布局 */
+
+.my-qingju-main {
+  display: flex;
+  /* justify-content: flex-start; */
+  justify-content: space-between;
+  align-items: flex-start;
+  min-width: 1200px;
+  /* margin-top: 40px; */
+}
+
+@media screen and (max-width: 1200px) {
+  .my-qingju-main {
+    width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .my-qingju-main {
+    width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 1550px) {
+  .my-qingju-main {
+    width: auto;
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+}
+
+.myQingju-table th {
+  background-color: #F6F7FB;
+  color: #333;
+  padding: 8px 0;
+}
+
+.myQingju-table td {
+  padding: 5px 0;
+  height: 100px;
+}
+
+.myQingju-table .el-table__body tr:hover>td {
+  background-color: #F5FBFA;
+}
+
+.myQingju-table {
+  color: #333;
+}
+
+.myQingju-table th:nth-last-child(2) {
+  text-align: right;
+}
+
+.myQingju-table-th-left th:nth-last-child(2) {
+  text-align: left;
+}
+
+.more-handle {
+  text-align: right;
+  cursor: pointer;
+}
+
+.more-handle-green, .more-handle-green a {
+  color: #03B189;
+}
+
+.more-handle-green p:hover, .more-handle-green a:hover {
+  color: #2D9769;
+  text-decoration: underline;
+}
+
+.my-qingju-main .btn {
+  padding: 5px 20px;
+  line-height: 20px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.my-qingju-main .page-title {
+  font-size: 18px;
+  /* padding: 15px 0; */
+  padding-bottom: 15px;
+  border-bottom: 1px solid #D7D7D7;
+  color: #666;
+}
+
+.my-qingju-main .msg-dialog .el-dialog__body {
+  /* padding-top: 15px; */
+  padding: 0;
+  padding-bottom: 20px;
+}
+
+.my-qingju-main .msg-dialog .el-dialog__header {
+  border-bottom: 1px solid #D7D7D7;
+  padding-bottom: 15px;
+}
+
+.my-qingju-main .confirm-dialog .el-dialog__header {
+  background-color: #F5FBFA;
+  padding-bottom: 15px;
+}
+
+.my-qingju-main .confirm-dialog .el-dialog__body {
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+/* 设置button */
+
+.my-qingju-main .btn-green, .login-relevant .btn-green {
+  background-color: #03B189;
+}
+
+.my-qingju-main .btn-common, .login-relevant .btn-common {
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background-color: #f7f7f7;
+  color: #333;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.btn-common+.btn-common {
+  margin-left: 20px;
+}
+
+.my-qingju-main .btn-submit, .login-relevant .btn-submit {
+  background-color: #03B189;
+  color: #fff;
+  border-color: inherit;
+}
+
+.my-qingju-main .btn-green:hover, .my-qingju-main .btn-submit:hover, .login-relevant .btn-green:hover, .login-relevant .btn-submit:hover {
+  background-color: #21A57E;
+  color: #fff;
+  border-color: inherit;
+}
+
+.my-qingju-main .btn-cancel:hover, .login-relevant .btn-cancel:hover {
+  background-color: #fff;
+}
+
+.my-qingju-main .btn-width-150 {
+  width: 150px;
+}
+
+.my-qingju-main .btn-width-100 {
+  width: 100px;
+}
+
+.my-qingju-main .pagination-layout {
+  text-align: right;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.my-qingju-main .gray {
+  color: #C2CAD8;
+  cursor: pointer;
+}
+
+.el-button, .el-input__inner {
+  border-radius: 2px;
+}
+
+.user-tree .el-tree-node__content {
+  height: 40px;
+}
+
+.triangle {
+  display: inline-block;
+  position: relative;
+  top: 5px;
+  left: 0;
+  width: 23px;
+  height: 20px;
+  text-align: center;
+  transition: transform .5s;
+  cursor: pointer;
+}
+
+.triangle:before {
+  content: '';
+  position: absolute;
+  top: 8px;
+  right: 5px;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #333;
+  cursor: pointer;
+}
+
+.triangle:after {
+  content: '';
+  position: absolute;
+  top: 6px;
+  right: 5px;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #F6F7FB;
+}
+
+.active-triangle {
+  transform: rotate(180deg);
+}
+
+.active-triangle::before {
+  border-top-color: #009966;
+}
+
+.minWidthChange {
+  min-width: 80px;
+}
+
+.filterPopver {
+  padding: 0;
+}
+
+.myQingju-table th div {
+  line-height: 25px;
+  padding-left: 0;
+}
+
+.myQingju-table .arrow-default {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background: url('../img/arrow-default.png') no-repeat center;
+  position: relative;
+  top: 2px;
+}
+
+.myQingju-table .arrow-up {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background: url('../img/arrow-down.png') no-repeat center;
+  transform: rotate(180deg);
+  position: relative;
+  top: 2px;
+}
+
+.myQingju-table .arrow-down {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background: url('../img/arrow-down.png') no-repeat center;
+  position: relative;
+  top: 2px;
+}
